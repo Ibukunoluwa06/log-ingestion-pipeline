@@ -1,0 +1,8 @@
+Nov 15 10:01:23 kali-linux sshd[1234]: Accepted password for root from 192.168.1.10 port 22 ssh2
+Nov 15 10:02:45 kali-linux sudo[5678]: ibk : TTY=pts/0 ; PWD=/home/ibk ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 15 10:03:11 kali-linux kernel: [12345.678901] iptables: IN=eth0 OUT= SRC=10.0.0.5 DST=10.0.0.1 PROTO=TCP DPT=80
+Nov 15 10:04:02 kali-linux sshd[1235]: Failed password for invalid user admin from 203.0.113.42 port 4444 ssh2
+Nov 15 10:05:30 kali-linux sshd[1236]: Failed password for invalid user admin from 203.0.113.42 port 4445 ssh2
+Nov 15 10:05:31 kali-linux sshd[1237]: Failed password for invalid user admin from 203.0.113.42 port 4446 ssh2
+Nov 15 10:06:00 kali-linux cron[9999]: (root) CMD (/usr/bin/python3 /opt/monitor.py)
+Nov 15 10:07:15 kali-linux systemd[1]: Started Session 4 of user ibk.

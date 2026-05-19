@@ -1,0 +1,18 @@
+# Log Ingestion Pipeline - Configuration File
+
+sources:
+  - type: file
+    name: syslog
+    path: ./tests/samples/sample_syslog.log
+
+  - type: file
+    name: auth_log
+    path: ./tests/samples/sample_auth.log
+
+output:
+  json_file: ./output/events.jsonl
+  sqlite_db: ./output/logs.db
+
+pipeline:
+  dead_letter_file: ./output/dead_letter.jsonl
+  log_level: INFO
