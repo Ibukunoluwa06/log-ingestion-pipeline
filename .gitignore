@@ -6,3 +6,4 @@ __pycache__/
 .env
 GeoLite2*.mmdb
 EOF
+venv/
