@@ -1,0 +1,3 @@
+Suggested GitHub topics to add manually on your repo page:
+soc, security, python, log-analysis, siem, threat-detection,
+cybersecurity, log-parser, sqlite, kali-linux
